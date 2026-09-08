@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "current": "3.1.0",
+  "current": "3.2.0",
   "releaseFeed": "releases.json",
   "announcement": {
     "enabled": true,
-    "release": "3.1.0",
-    "title": "FlexDoc 3.1 is out",
-    "message": "Backend-native Contract Validation with one renderer result and CLI/CI consumer.",
+    "release": "3.2.0",
+    "title": "FlexDoc 3.2 is out",
+    "message": "Headless Runner brings the canonical API Client request, script, test and collection model into local and CI workflows.",
     "linkLabel": "See what's new"
   }
 }

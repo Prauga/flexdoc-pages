@@ -2,6 +2,28 @@
   "schemaVersion": 1,
   "releases": [
     {
+      "id": "3-2",
+      "version": "3.2",
+      "title": "Headless Runner for local and CI workflows",
+      "summary": "FlexDoc takes the canonical API Client request, script, test and collection model outside the browser with portable artifacts and flexdoc run, reusing the existing direct and backend-advertised host execution contracts instead of inventing a second request engine.",
+      "highlights": [
+        "Export a saved request, folder subtree or collection as a portable, history-free Runner artifact with the selected environment and existing auth, variables and scripts intact.",
+        "flexdoc run executes through the same canonical request builder, collection ordering, variable resolution, inherited auth, scripts and tests used by the API Client.",
+        "Direct and existing advertised host execution are reported truthfully, with protected docs/execute authentication reusing --header, --bearer and --basic without leaking those credentials to direct targets.",
+        "Machine-readable run reports, stable per-item evidence, stop-on-failure and cancellation make collection runs practical in CI without creating a second History or Newman-compatible execution model."
+      ],
+      "changelog": true,
+      "publishedBuild": "3.2.0",
+      "publishedAt": "2026-09-08",
+      "javascript": {
+        "version": "3.2.0",
+        "tag": "js/v3.2.0",
+        "clientPackage": "@prauga/flexdoc-client",
+        "backendPackage": "@prauga/flexdoc-backend",
+        "rendererAsset": "flexdoc-renderer.tar.gz"
+      }
+    },
+    {
       "id": "3-1",
       "version": "3.1",
       "title": "Backend-native Contract Validation",
@@ -285,20 +307,20 @@
     }
   ],
   "currentPackages": [
-    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-client", "version": "3.1.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-client/v/3.1.0" },
-    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-backend", "version": "3.1.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-backend/v/3.1.0" },
+    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-client", "version": "3.2.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-client/v/3.2.0" },
+    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-backend", "version": "3.2.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-backend/v/3.2.0" },
     { "ecosystem": "npm", "artifact": "@prauga/flexdoc-core", "version": "0.5.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-core/v/0.5.0" },
-    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-cli", "version": "0.6.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-cli/v/0.6.0" },
-    { "ecosystem": "NuGet", "artifact": "Prauga.FlexDoc.AspNetCore", "version": "0.5.1", "href": "https://www.nuget.org/packages/Prauga.FlexDoc.AspNetCore/0.5.1" },
-    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-jvm", "version": "0.8.1", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-jvm/0.8.1" },
-    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-jaxrs", "version": "0.8.1", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-jaxrs/0.8.1" },
-    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-spring-boot-starter", "version": "0.8.1", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-spring-boot-starter/0.8.1" },
-    { "ecosystem": "PyPI", "artifact": "prauga-flexdoc", "version": "0.7.1", "href": "https://pypi.org/project/prauga-flexdoc/0.7.1/" },
-    { "ecosystem": "Composer", "artifact": "prauga/flexdoc", "version": "0.4.3", "href": "https://packagist.org/packages/prauga/flexdoc#0.4.3" },
-    { "ecosystem": "RubyGems", "artifact": "prauga-flexdoc", "version": "0.4.3", "href": "https://rubygems.org/gems/prauga-flexdoc/versions/0.4.3" },
-    { "ecosystem": "crates.io", "artifact": "prauga-flexdoc-axum", "version": "0.5.3", "href": "https://crates.io/crates/prauga-flexdoc-axum/0.5.3" },
-    { "ecosystem": "crates.io", "artifact": "prauga-flexdoc-actix", "version": "0.4.3", "href": "https://crates.io/crates/prauga-flexdoc-actix/0.4.3" },
-    { "ecosystem": "Hex", "artifact": "prauga_flexdoc", "version": "0.4.3", "href": "https://hex.pm/packages/prauga_flexdoc/0.4.3" },
-    { "ecosystem": "Go", "artifact": "github.com/prauga/flexdoc/adapters/go", "version": "0.5.3", "href": "https://github.com/Prauga/flexdoc/tree/adapters/go/v0.5.3/adapters/go" }
+    { "ecosystem": "npm", "artifact": "@prauga/flexdoc-cli", "version": "0.7.0", "href": "https://www.npmjs.com/package/@prauga/flexdoc-cli/v/0.7.0" },
+    { "ecosystem": "NuGet", "artifact": "Prauga.FlexDoc.AspNetCore", "version": "0.5.2", "href": "https://www.nuget.org/packages/Prauga.FlexDoc.AspNetCore/0.5.2" },
+    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-jvm", "version": "0.8.2", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-jvm/0.8.2" },
+    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-jaxrs", "version": "0.8.2", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-jaxrs/0.8.2" },
+    { "ecosystem": "Maven", "artifact": "com.prauga.flexdoc:flexdoc-spring-boot-starter", "version": "0.8.2", "href": "https://central.sonatype.com/artifact/com.prauga.flexdoc/flexdoc-spring-boot-starter/0.8.2" },
+    { "ecosystem": "PyPI", "artifact": "prauga-flexdoc", "version": "0.7.2", "href": "https://pypi.org/project/prauga-flexdoc/0.7.2/" },
+    { "ecosystem": "Composer", "artifact": "prauga/flexdoc", "version": "0.4.4", "href": "https://packagist.org/packages/prauga/flexdoc#0.4.4" },
+    { "ecosystem": "RubyGems", "artifact": "prauga-flexdoc", "version": "0.4.4", "href": "https://rubygems.org/gems/prauga-flexdoc/versions/0.4.4" },
+    { "ecosystem": "crates.io", "artifact": "prauga-flexdoc-axum", "version": "0.5.4", "href": "https://crates.io/crates/prauga-flexdoc-axum/0.5.4" },
+    { "ecosystem": "crates.io", "artifact": "prauga-flexdoc-actix", "version": "0.4.4", "href": "https://crates.io/crates/prauga-flexdoc-actix/0.4.4" },
+    { "ecosystem": "Hex", "artifact": "prauga_flexdoc", "version": "0.4.4", "href": "https://hex.pm/packages/prauga_flexdoc/0.4.4" },
+    { "ecosystem": "Go", "artifact": "github.com/prauga/flexdoc/adapters/go", "version": "0.5.4", "href": "https://github.com/Prauga/flexdoc/tree/adapters/go/v0.5.4/adapters/go" }
   ]
 }
