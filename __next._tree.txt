@@ -3,4 +3,4 @@
 :HL["/favicon.svg","image"]
 :HL["/img/flexdoc/showcase-overview-light.jpg","image",{"media":"(prefers-color-scheme: light)"}]
 :HL["/img/flexdoc/showcase-overview-dark.jpg","image",{"media":"(prefers-color-scheme: dark)"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"_y2-9NhBn6rKEz8mJ_--8"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"9Y2FS94Xuegp97IdCPgMB"}
