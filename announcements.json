@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "announcements": [
+    {
+      "id": "3.3.1-in-progress",
+      "enabled": true,
+      "priority": 100,
+      "variant": "progress",
+      "emphasis": "featured",
+      "placements": ["banner", "hero"],
+      "label": "FlexDoc 3.3.1 · In progress",
+      "title": "FlexDoc 3.3.1 is being built in public",
+      "message": "Follow the 3.3.x branch as the patch release takes shape. Review the source, try the current FlexDoc experience, and contribute issues or fixes.",
+      "actions": [
+        {
+          "label": "View 3.3.x source",
+          "href": "https://github.com/Prauga/flexdoc/tree/3.3.x",
+          "style": "primary"
+        },
+        {
+          "label": "Try current demo",
+          "href": "/demo",
+          "style": "secondary"
+        },
+        {
+          "label": "Contribute",
+          "href": "https://github.com/Prauga/flexdoc/issues",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "3.3-release",
+      "enabled": true,
+      "priority": 80,
+      "variant": "release",
+      "emphasis": "compact",
+      "placements": ["banner", "hero"],
+      "label": "FlexDoc 3.3 · Backend Execution Expansion",
+      "title": "FlexDoc 3.3 is out",
+      "message": "Backend Execution Expansion adds controlled API-host execution across supported native runtimes while keeping transport policy explicit and fail-closed.",
+      "actions": [
+        {
+          "label": "See what's new",
+          "href": "/releases#release-3-3-0",
+          "style": "primary"
+        }
+      ]
+    }
+  ]
+}

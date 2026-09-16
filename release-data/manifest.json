@@ -1,12 +1,5 @@
 {
   "schemaVersion": 1,
   "current": "3.3.0",
-  "releaseFeed": "releases.json",
-  "announcement": {
-    "enabled": true,
-    "release": "3.3.0",
-    "title": "FlexDoc 3.3 is out",
-    "message": "Backend Execution Expansion brings controlled API-host execution across supported native runtimes, with host-preferred interactive sends and explicit security and operations guidance.",
-    "linkLabel": "See what's new"
-  }
+  "releaseFeed": "releases.json"
 }
